@@ -42,9 +42,9 @@ alias gs='git status'
 #
 # class-centric aliases
 #
-# change this to the full directory where your Code 201 classwork exists
+# change this to the full directory where your Code 102 classwork exists
 
-alias 201='cd ~/Documents/Code201/labwork'
+alias 102='cd ~/Code102'
 
 #
 # bash management aliases
