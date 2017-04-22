@@ -1,5 +1,5 @@
-var day = 'Monday',
-    thursday = 'thursday';
+// var day = 'Monday',
+//     thursday = 'thursday';
 
 // How many equals signs does it take to screw your code?
 /* if (day = 'thursday') {
