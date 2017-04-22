@@ -72,8 +72,9 @@ for (var i = 0; i < days.length; i++) {
 // TODO: On each iteration, use our randomly generated dayNumber
 //       to get a day from the days array, and console.log the
 //       name of the day.
-var max = 100,
-    result;
-for (var j = 0; j < max; j++) {
-  dayNumber = Math.floor(Math.random() * days.length);
-}
+// var max = 100,
+//     result;
+// for (var j = 0; j < max; j++) {
+//   dayNumber = Math.floor(Math.random() * days.length);
+//   console.log()
+// }
