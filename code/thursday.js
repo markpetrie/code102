@@ -1,8 +1,8 @@
-var day = 'Thursday',
+var day = 'Monday',
     thursday = 'thursday';
 
 // How many equals signs does it take to screw your code?
-if (day = 'thursday') {
+/* if (day = 'thursday') {
   console.log('Test 1: Well lookee there, it\'s ' + day);
 }
 
@@ -15,14 +15,21 @@ if (day == 'Thursday') {
 if (day === 'Thursday') {
   console.log('Test 3: Huh. It\'s ' + day);
 }
+*/
 
 // TODO: After commenting out the 3 conditionals above,
 //       uncomment this code and run it.
 // if (day === 'Thursday') {
-//   console.log('Is it Friday yet?');
-// } else {
-//   console.log('Whistle while you work!')
-// }
+//    console.log('Is it Friday yet?');
+//  } else if (day === 'Saturday' || day === 'Sunday') {
+//    console.log('It is the weekend!');
+//  }
+//  else if (day === 'Monday') {
+//    console.log('Time to start a new week!');
+//  }
+//  else {
+//    console.log('Whistle while you work!')
+//  }
 
 // TODO: Add an "else if" block to check whether it's Saturday
 //       and console.log() a different statement for the weekend.
@@ -46,17 +53,17 @@ if (day === 'Thursday') {
 
 var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-// console.log('index 0: ' + days[0]);
-// console.log('index 1: ' + days[1]);
-// console.log('index 2: ' + days[2]);
-// console.log('index 6: ' + days[6]);
-// console.log('index 7: ' + days[7]);
-// console.log('index 20: ' + days[20]);
+console.log('index 0: ' + days[0]);
+console.log('index 1: ' + days[1]);
+console.log('index 2: ' + days[2]);
+console.log('index 6: ' + days[6]);
+console.log('index 7: ' + days[7]);
+console.log('index 20: ' + days[20]);
 
 // TODO: DRY it up!
-// for (var i = 0; i < 7; i++) {
-//   console.log('index ' + i + ': ' + days[i]);
-// }
+for (var i = 0; i < days.length; i++) {
+  console.log('index ' + i + ': ' + days[i]);
+}
 
 
 // TODO: Replace the "7" in "i < 7" with the length of the array
@@ -65,8 +72,8 @@ var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
 // TODO: On each iteration, use our randomly generated dayNumber
 //       to get a day from the days array, and console.log the
 //       name of the day.
-// var max = 100,
-//     result;
-// for (var j = 0; j < max; j++) {
-//   dayNumber = Math.floor(Math.random() * days.length);
-// }
+var max = 100,
+    result;
+for (var j = 0; j < max; j++) {
+  dayNumber = Math.floor(Math.random() * days.length);
+}
