@@ -1,5 +1,5 @@
-var day = 'Monday',
-    thursday = 'thursday';
+// var day = 'Monday',
+//     thursday = 'thursday';
 
 // How many equals signs does it take to screw your code?
 /* if (day = 'thursday') {
@@ -53,12 +53,12 @@ if (day === 'Thursday') {
 
 var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
-console.log('index 0: ' + days[0]);
-console.log('index 1: ' + days[1]);
-console.log('index 2: ' + days[2]);
-console.log('index 6: ' + days[6]);
-console.log('index 7: ' + days[7]);
-console.log('index 20: ' + days[20]);
+// console.log('index 0: ' + days[0]);
+// console.log('index 1: ' + days[1]);
+// console.log('index 2: ' + days[2]);
+// console.log('index 6: ' + days[6]);
+// console.log('index 7: ' + days[7]);
+// console.log('index 20: ' + days[20]);
 
 // TODO: DRY it up!
 for (var i = 0; i < days.length; i++) {
@@ -75,5 +75,6 @@ for (var i = 0; i < days.length; i++) {
 var max = 100,
     result;
 for (var j = 0; j < max; j++) {
-  dayNumber = Math.floor(Math.random() * days.length);
+  var dayNumber = Math.floor(Math.random() * days.length);
+  console.log(days[dayNumber]);
 }
